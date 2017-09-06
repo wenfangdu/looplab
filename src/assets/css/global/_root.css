@@ -1,0 +1,7 @@
+:root {
+  --bg-color: #333333;
+  --font-color: #ffffff;
+  --primary-color: #008ed6;
+  --dark-overlay: rgba(0, 0, 0, 0.7);
+  --icon-size: 30px;
+}
