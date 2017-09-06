@@ -1,3 +1,6 @@
 .navbar-brand--white {
   color: #ffffff;
 }
+.container--pt {
+  padding-top: 9.375rem;
+}

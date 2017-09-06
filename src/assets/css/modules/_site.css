@@ -1,0 +1,16 @@
+#home-section {
+  background: url("assets/img/home.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 43.75rem;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  &--dark {
+    background-color: var(--dark-overlay);
+  }
+}
