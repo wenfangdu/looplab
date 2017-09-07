@@ -7,3 +7,13 @@
 .card--low-opacity {
   opacity: 0.9;
 }
+.fixed-top--sm {
+  position: relative;
+  @media (--md) {
+    position: fixed;
+  }
+}
+.navbar--border-bottom {
+  border-bottom: var(--primary-color) solid 0.1875rem;
+  opacity: 0.9;
+}

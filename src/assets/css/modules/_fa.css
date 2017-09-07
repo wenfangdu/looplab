@@ -1,7 +1,14 @@
 .fa-check--bg-dark {
   color: #ffffff;
   background-color: var(--bg-color);
-  padding: 4px;
-  border-radius: 5px;
+  padding: 0.25rem;
+  border-radius: 0.3125rem;
+  font-size: var(--icon-size);
+}
+.fa-check--bg-white {
+  color: var(--primary-color);
+  background-color: #ffffff;
+  padding: 0.25rem;
+  border-radius: 0.3125rem;
   font-size: var(--icon-size);
 }

@@ -2,7 +2,7 @@
   <div>
     <!-- main header -->
     <header>
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <nav class="navbar navbar--border-bottom navbar-expand-sm bg-dark navbar-dark fixed-top fixed-top--sm">
         <div class="container">
           <a href="index.html" class="navbar-brand navbar-brand--white">BS1</a>
           <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -76,8 +76,120 @@
         </div>
       </div>
     </section>
+    <!-- create head section-->
+    <section id="create-head-section" class="bg-primary">
+      <div class="container">
+        <div class="text-center">
+          <div class="py-5">
+            <h1 class="display-4">Create</h1>
+            <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quisquam iusto hic ducimus saepe harum praesentium
+              nesciunt nihil eum itaque? Iusto at possimus rem doloribus laudantium veniam magni pariatur unde.</p>
+            <a href="#" class="btn btn-outline-light ">Find Out More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- create section -->
+    <section id="create-section" class="py-5">
+      <div class="container">
+        <h3>Create your passion</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, hic corporis! Ratione illo distinctio blanditiis
+          vero. Beatae quisquam provident, optio officiis labore inventore quis dolore eligendi facere? Aliquid, tenetur
+          qui?
+        </p>
+        <div class="d-flex">
+          <div class="p-4">
+            <i class="fa fa-check fa-check--bg-white"></i>
+          </div>
+          <div class="p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, quia eveniet labore atque perspiciaam. Eveniet temporibus
+            expedita quisquam?</div>
+        </div>
+        <div class="d-flex">
+          <div class="p-4"><i class="fa fa-check fa-check--bg-white"></i></div>
+          <div class="p-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, architecto!</div>
+        </div>
+        <div class="d-flex">
+          <div class="p-4">
+            <div class="fa fa-check fa-check--bg-white"></div>
+          </div>
+          <div class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quod fuga autem minus? Laborum, pariatur?</div>
+        </div>
+        <img src="./assets/img/create-section1.jpg" alt="create section img" class="img-fluid container-fluid mb-3 rounded-circle">
+      </div>
+    </section>
+    <!-- share head section -->
+    <section id="share-head-section" class="bg-primary py-5">
+      <div class="container">
+        <div class="text-center">
+          <h1 class="display-4">Share</h1>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nesciunt cumque facilis nobis sit eum quaerat numquam!
+            Veritatis recusandae esse incidunt! Nesciunt quasi, doloribus mollitia ex laudantium voluptatibus corporis tempore.</p>
+          <a href="#" class="btn btn-outline-light">Find Out More</a>
+        </div>
+      </div>
+    </section>
+    <!-- share section -->
+    <section id="share-section" class="py-5 bg-light text-muted">
+      <div class="container">
+        <img src="./assets/img/share-section1.jpg" alt="share section img" class=" img-fluid mb-3 rounded-circle">
+        <h3>Share what you create</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, voluptatem sequi deserunt cumque vitae iste, nulla
+          ullam earum officia iure illum voluptates debitis unde, exercitationem quos sint repudiandae commodi sit!</p>
+        <div class="d-flex">
+          <div class="p-4"><i class="fa fa-check fa-check--bg-white"></i></div>
+          <div class="p-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, accusantium? Totam quasi facilis repudiandae recusandae.</div>
+        </div>
+        <div class="d-flex">
+          <div class="p-4"><i class="fa fa-check fa-check--bg-white"></i></div>
+          <div class="p-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias odit natus necessitatibus animi doloremque
+            sunt.
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- main footer -->
+    <footer class="bg-dark">
+      <div class="container">
+        <div class="text-center">
+          <div class="py-4">
+            <h3>BS1</h3>
+            <p>Copyright &copy; 2017</p>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- contact modal -->
+    <div class="modal fade text-dark" id="contactModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Contact Us</h5>
+            <button class="close" data-dismiss="modal"><span>&times;</span></button>
+          </div>
+          <div class="modal-body">
+            <form action="post">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="msg">Message</label>
+                <textarea name="msg" id="msg" class="form-control"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary btn-block">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-
 </template>
 <script>
   const $ = require("jquery")
