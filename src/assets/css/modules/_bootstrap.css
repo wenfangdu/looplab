@@ -4,3 +4,6 @@
 .container--pt {
   padding-top: 9.375rem;
 }
+.card--low-opacity {
+  opacity: 0.9;
+}

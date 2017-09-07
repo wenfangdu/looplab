@@ -25,7 +25,7 @@
     <section id="home-section">
       <div class="overlay overlay--dark">
         <div class="container container--pt">
-          <div class="card bg-primary text-center">
+          <div class="card bg-primary text-center card--low-opacity">
             <div class="card-body">
               <h3>Sign Up Today</h3>
               <p>Please fill out this form to register</p>
@@ -59,7 +59,21 @@
         <h3>Explore & Connect</h3>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et officiis expedita voluptatem obcaecati facilis vero
           amet vitae labore tenetur iusto debitis cum asperiores necessitatibus consequuntur est, ratione eum esse ab!</p>
-
+        <div class="d-flex">
+          <div class="p-4">
+            <i class="fa fa-check fa-check--bg-dark"></i>
+          </div>
+          <div class="p-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ab molestias dignissimos atque blanditiis voluptatibus molestiae
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="p-4"><i class="fa fa-check fa-check--bg-dark"></i></div>
+          <div class="p-4 ">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Ut, cum?
+          </div>
+        </div>
       </div>
     </section>
   </div>

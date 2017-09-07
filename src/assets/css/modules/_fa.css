@@ -1,0 +1,7 @@
+.fa-check--bg-dark {
+  color: #ffffff;
+  background-color: var(--bg-color);
+  padding: 4px;
+  border-radius: 5px;
+  font-size: var(--icon-size);
+}
