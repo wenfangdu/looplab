@@ -26,8 +26,8 @@
       <div class="overlay overlay--dark">
         <div class="container container--pt px-md-5 px-lg-0">
           <div class="row">
-            <div class="col-lg-8 d-none d-lg-block ">
-              <h1 class="display-4">Build <strong>social profiles</strong> and gain revenue and <strong>profits</strong></h1>
+            <div class="col-lg-8  d-lg-block mb-5 mb-lg-0">
+              <h2 class="h2 h2--md">Build <strong>social profiles</strong> and gain revenue and <strong>profits</strong></h2>
               <div class="d-flex">
                 <div class="p-4"><i class="fa fa-check fa-check--bg-white"></i></div>
                 <div class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, reiciendis.</div>

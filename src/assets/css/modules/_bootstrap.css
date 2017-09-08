@@ -17,3 +17,8 @@
   border-bottom: var(--primary-color) solid 0.1875rem;
   opacity: 0.9;
 }
+@media (--md) {
+  .h2--md {
+    font-size: 2.7rem;
+  }
+}

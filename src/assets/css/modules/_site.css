@@ -2,15 +2,24 @@
   background: url("assets/img/home.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 43.75rem;
+  height: 75rem;
+  @media (--md) {
+    height: 70rem;
+  }
+  @media (--lg) {
+    height: 43.75rem;
+  }
 }
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 47.5rem;
+  height: 79rem;
   @media (--md) {
+    height: 70rem;
+  }
+  @media (--lg) {
     height: 43.75rem;
   }
   &--dark {
