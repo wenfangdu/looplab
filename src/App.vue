@@ -24,18 +24,39 @@
     <!-- home section -->
     <section id="home-section">
       <div class="overlay overlay--dark">
-        <div class="container container--pt">
-          <div class="card bg-primary text-center card--low-opacity">
-            <div class="card-body">
-              <h3>Sign Up Today</h3>
-              <p>Please fill out this form to register</p>
-              <form action="post">
-                <div class="form-group"><input type="text" class="form-control form-control-lg" placeholder="Username"></div>
-                <div class="form-group"><input type="email" name="email" id="email" class="form-control form-control-lg" placeholder="Email"></div>
-                <div class="form-group"><input type="password" name="password" id="password" class="form-control form-control-lg" placeholder="Password"></div>
-                <div class="form-group"><input type="password" name="confirmPassword" id="confirmPassword" class="form-control form-control-lg" placeholder="Confirm Password"></div>
-                <button class="btn btn-outline-light btn-block">Submit</button>
-              </form>
+        <div class="container container--pt px-md-5 px-lg-0">
+          <div class="row">
+            <div class="col-lg-8 d-none d-lg-block ">
+              <h1 class="display-4">Build <strong>social profiles</strong> and gain revenue and <strong>profits</strong></h1>
+              <div class="d-flex">
+                <div class="p-4"><i class="fa fa-check fa-check--bg-white"></i></div>
+                <div class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, reiciendis.</div>
+              </div>
+              <div class="d-flex">
+                <div class="p-4"><i class="fa fa-check fa-check--bg-white"></i></div>
+                <div class="p-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit quisquam voluptate molestiae neque quos non!</div>
+              </div>
+              <div class="d-flex">
+                <div class="p-4"><i class="fa fa-check fa-check--bg-white"></i></div>
+                <div class="p-4">Lorem, ipsum dolor sit amet cons Lorem ipsum dolor sit.ectetur adipisicing elit. Sit quisquam voluptate molestiae
+                  neque quos non!</div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card bg-primary text-center card--low-opacity">
+                <div class="card-body">
+                  <h3>Sign Up Today</h3>
+                  <p>Please fill out this form to register</p>
+                  <form action="post">
+                    <div class="form-group"><input type="text" class="form-control form-control-lg" placeholder="Username"></div>
+                    <div class="form-group"><input type="email" name="email" id="email" class="form-control form-control-lg" placeholder="Email"></div>
+                    <div class="form-group"><input type="password" name="password" id="password" class="form-control form-control-lg" placeholder="Password"></div>
+                    <div class="form-group"><input type="password" name="confirmPassword" id="confirmPassword" class="form-control form-control-lg"
+                        placeholder="Confirm Password"></div>
+                    <button class="btn btn-outline-light btn-block">Submit</button>
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -55,23 +76,29 @@
     <!-- explore section -->
     <section id="explore-section" class="text-muted bg-light py-5">
       <div class="container ">
-        <img src="./assets/img/explore-section1.jpg" alt="explore img" class="img-fluid mb-3 rounded-circle">
-        <h3>Explore & Connect</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et officiis expedita voluptatem obcaecati facilis vero
-          amet vitae labore tenetur iusto debitis cum asperiores necessitatibus consequuntur est, ratione eum esse ab!</p>
-        <div class="d-flex">
-          <div class="p-4">
-            <i class="fa fa-check fa-check--bg-dark"></i>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./assets/img/explore-section1.jpg" alt="explore img" class="img-fluid mb-3 rounded-circle">
           </div>
-          <div class="p-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ab molestias dignissimos atque blanditiis voluptatibus molestiae
-          </div>
-        </div>
-        <div class="d-flex">
-          <div class="p-4"><i class="fa fa-check fa-check--bg-dark"></i></div>
-          <div class="p-4 ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Ut, cum?
+          <div class="col-md-6">
+            <h3>Explore & Connect</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et officiis expedita voluptatem obcaecati facilis vero
+              amet vitae labore tenetur iusto debitis cum asperiores necessitatibus consequuntur est, ratione eum esse ab!</p>
+            <div class="d-flex">
+              <div class="p-4">
+                <i class="fa fa-check fa-check--bg-dark"></i>
+              </div>
+              <div class="p-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ab molestias dignissimos atque blanditiis voluptatibus molestiae
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="p-4"><i class="fa fa-check fa-check--bg-dark"></i></div>
+              <div class="p-4 ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Ut, cum?
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -92,29 +119,35 @@
     <!-- create section -->
     <section id="create-section" class="py-5">
       <div class="container">
-        <h3>Create your passion</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, hic corporis! Ratione illo distinctio blanditiis
-          vero. Beatae quisquam provident, optio officiis labore inventore quis dolore eligendi facere? Aliquid, tenetur
-          qui?
-        </p>
-        <div class="d-flex">
-          <div class="p-4">
-            <i class="fa fa-check fa-check--bg-white"></i>
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Create your passion</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, hic corporis! Ratione illo distinctio blanditiis
+              vero. Beatae quisquam provident, optio officiis labore inventore quis dolore eligendi facere? Aliquid, tenetur
+              qui?
+            </p>
+            <div class="d-flex">
+              <div class="p-4">
+                <i class="fa fa-check fa-check--bg-white"></i>
+              </div>
+              <div class="p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, quia eveniet labore atque perspiciaam. Eveniet
+                temporibus expedita quisquam?</div>
+            </div>
+            <div class="d-flex">
+              <div class="p-4"><i class="fa fa-check fa-check--bg-white"></i></div>
+              <div class="p-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, architecto!</div>
+            </div>
+            <div class="d-flex">
+              <div class="p-4">
+                <div class="fa fa-check fa-check--bg-white"></div>
+              </div>
+              <div class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quod fuga autem minus? Laborum, pariatur?</div>
+            </div>
           </div>
-          <div class="p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, quia eveniet labore atque perspiciaam. Eveniet temporibus
-            expedita quisquam?</div>
-        </div>
-        <div class="d-flex">
-          <div class="p-4"><i class="fa fa-check fa-check--bg-white"></i></div>
-          <div class="p-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, architecto!</div>
-        </div>
-        <div class="d-flex">
-          <div class="p-4">
-            <div class="fa fa-check fa-check--bg-white"></div>
+          <div class="col-md-6 d-flex ">
+            <img src="./assets/img/create-section1.jpg" alt="create section img" class="img-fluid container-fluid mb-3 rounded-circle align-self-center">
           </div>
-          <div class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quod fuga autem minus? Laborum, pariatur?</div>
         </div>
-        <img src="./assets/img/create-section1.jpg" alt="create section img" class="img-fluid container-fluid mb-3 rounded-circle">
       </div>
     </section>
     <!-- share head section -->
@@ -131,18 +164,28 @@
     <!-- share section -->
     <section id="share-section" class="py-5 bg-light text-muted">
       <div class="container">
-        <img src="./assets/img/share-section1.jpg" alt="share section img" class=" img-fluid mb-3 rounded-circle">
-        <h3>Share what you create</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, voluptatem sequi deserunt cumque vitae iste, nulla
-          ullam earum officia iure illum voluptates debitis unde, exercitationem quos sint repudiandae commodi sit!</p>
-        <div class="d-flex">
-          <div class="p-4"><i class="fa fa-check fa-check--bg-white"></i></div>
-          <div class="p-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, accusantium? Totam quasi facilis repudiandae recusandae.</div>
-        </div>
-        <div class="d-flex">
-          <div class="p-4"><i class="fa fa-check fa-check--bg-white"></i></div>
-          <div class="p-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias odit natus necessitatibus animi doloremque
-            sunt.
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./assets/img/share-section1.jpg" alt="share section img" class=" img-fluid mb-3 rounded-circle">
+          </div>
+          <div class="col-md-6">
+            <h3>Share what you create</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, voluptatem sequi deserunt cumque vitae iste,
+              nulla ullam earum officia iure illum voluptates debitis unde, exercitationem quos sint repudiandae commodi
+              sit!
+            </p>
+            <div class="d-flex">
+              <div class="p-4"><i class="fa fa-check fa-check--bg-white"></i></div>
+              <div class="p-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, accusantium? Totam quasi facilis repudiandae
+                recusandae.
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="p-4"><i class="fa fa-check fa-check--bg-white"></i></div>
+              <div class="p-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias odit natus necessitatibus animi doloremque
+                sunt.
+              </div>
+            </div>
           </div>
         </div>
       </div>
