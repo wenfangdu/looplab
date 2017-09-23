@@ -1,4 +1,4 @@
-# bs1
+# Looplab
 
 > A Vue.js project
 

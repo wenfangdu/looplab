@@ -4,7 +4,7 @@
     <header>
       <nav class="navbar navbar--border-bottom navbar-expand-sm bg-dark navbar-dark fixed-top fixed-top--sm">
         <div class="container">
-          <a href="index.html" class="navbar-brand navbar-brand--white">BS1</a>
+          <a href="index.html" class="navbar-brand navbar-brand--white">Looplab</a>
           <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                   <span class="navbar-toggler-icon"></span>
                 </button>
