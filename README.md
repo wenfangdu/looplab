@@ -1,10 +1,10 @@
 # Looplab
 
-> A Vue.js project
+> live link https://melodic-division.surge.sh/
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
