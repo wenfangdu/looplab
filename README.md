@@ -1,6 +1,6 @@
 # Looplab
 
-> Live link https://melodic-division.surge.sh/
+> [Live Link](https://looplab.surge.sh)
 
 ## Build Setup
 
