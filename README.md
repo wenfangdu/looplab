@@ -1,6 +1,6 @@
 # Looplab
 
-> [Live Link](https://looplab.surge.sh)
+> [Live Link](https://looplab.netlify.com/)
 
 ## Build Setup
 
